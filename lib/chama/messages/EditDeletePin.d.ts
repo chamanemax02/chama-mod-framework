@@ -1,4 +1,4 @@
-import { type WASocket, type WAMessageKey, type WAMessage } from '@whiskeysockets/baileys';
+import { type WASocket, type WAMessageKey, type WAMessage } from '../../index.js';
 import type { PinMessageOptions } from '../types/messages.js';
 export declare class EditDeletePinManager {
     private readonly sock;

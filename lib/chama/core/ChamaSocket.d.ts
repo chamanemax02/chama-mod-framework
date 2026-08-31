@@ -1,4 +1,4 @@
-import { type UserFacingSocketConfig, type WASocket, type WAMessage, type WAMessageKey, type WAMediaUpload } from '@whiskeysockets/baileys';
+import { type UserFacingSocketConfig, type WASocket, type WAMessage, type WAMessageKey, type WAMediaUpload } from '../../index.js';
 import { MessageManager } from '../messages/MessageManager.js';
 import { CallManager } from '../calls/CallManager.js';
 import { GroupManager } from '../groups/GroupManager.js';
@@ -78,7 +78,7 @@ export declare class ChamaSocket {
     stopVideoStream(): Promise<void>;
     onMessage(handler: (ctx: MessageContext) => void | Promise<void>): () => void;
     onCall(handler: import('../types/calls.js').CallEventListener): () => void;
-    onConnectionUpdate(handler: (state: Partial<import('@whiskeysockets/baileys').ConnectionState>) => void | Promise<void>): () => void;
+    onConnectionUpdate(handler: (state: Partial<import('../../index.js').ConnectionState>) => void | Promise<void>): () => void;
 }
 /**
  * Factory to create a customized ChamaSocket instance

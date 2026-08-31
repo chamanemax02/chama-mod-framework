@@ -1,4 +1,4 @@
-import type { WASocket } from '@whiskeysockets/baileys';
+import type { WASocket } from '../../index.js';
 import type { CallLinkOptions, CallLinkResult } from '../types/calls.js';
 export declare class CallLinksManager {
     private readonly sock;

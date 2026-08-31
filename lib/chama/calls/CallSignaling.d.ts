@@ -1,4 +1,4 @@
-import type { WASocket } from '@whiskeysockets/baileys';
+import type { WASocket } from '../../index.js';
 import type { OutgoingCallOfferOptions } from '../types/calls.js';
 export declare class CallSignalingManager {
     private readonly sock;

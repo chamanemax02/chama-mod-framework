@@ -1,4 +1,4 @@
-import { type WASocket, type WAMessage, type WAMessageKey, type WAMediaUpload } from '@whiskeysockets/baileys';
+import { type WASocket, type WAMessage, type WAMessageKey, type WAMediaUpload } from '../../index.js';
 import type { BaseSendOptions, SendTextOptions, SendMediaOptions, SendAudioOptions, SendLocationOptions, SendContactItem, SendPollOptions, SendAlbumOptions, SendEventOptions, PinMessageOptions } from '../types/messages.js';
 import type { InteractiveMessageOptions, RichResponseOptions, CarouselCardOptions } from '../types/interactive.js';
 export declare class MessageManager {

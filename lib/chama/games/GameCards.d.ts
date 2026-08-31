@@ -1,4 +1,4 @@
-import { proto } from '@whiskeysockets/baileys';
+import { proto } from '../../index.js';
 import type { GameLaunchCardOptions } from '../types/games.js';
 export declare class GameCards {
     /**

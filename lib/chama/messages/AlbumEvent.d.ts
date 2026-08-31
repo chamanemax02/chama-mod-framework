@@ -1,4 +1,4 @@
-import { type WASocket, type WAMessage } from '@whiskeysockets/baileys';
+import { type WASocket, type WAMessage } from '../../index.js';
 import type { SendAlbumOptions, SendEventOptions } from '../types/messages.js';
 export declare class AlbumEventManager {
     private readonly sock;

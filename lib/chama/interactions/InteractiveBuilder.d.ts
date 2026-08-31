@@ -1,4 +1,4 @@
-import { proto } from '@whiskeysockets/baileys';
+import { proto } from '../../index.js';
 import type { CarouselCardOptions, InteractiveMessageOptions, NativeFlowButtonDef } from '../types/interactive.js';
 import { NativeFlowBuilder } from './NativeFlowBuilder.js';
 /**

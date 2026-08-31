@@ -1,4 +1,4 @@
-import type { WACallEvent, WACallUpdateType } from '@whiskeysockets/baileys';
+import type { WACallEvent, WACallUpdateType } from '../../index.js';
 export type CallMediaType = 'audio' | 'video';
 export interface CallLinkOptions {
     type: CallMediaType;

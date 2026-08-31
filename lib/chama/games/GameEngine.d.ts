@@ -1,4 +1,4 @@
-import type { WASocket, WAMessage } from '@whiskeysockets/baileys';
+import type { WASocket, WAMessage } from '../../index.js';
 import type { GameState, GameLaunchCardOptions } from '../types/games.js';
 export declare class GameEngine {
     private readonly sock;

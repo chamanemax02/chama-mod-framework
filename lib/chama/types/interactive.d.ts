@@ -1,4 +1,4 @@
-import type { proto, WAMessageKey, WAMessage } from '@whiskeysockets/baileys';
+import type { proto, WAMessageKey, WAMessage } from '../../index.js';
 /**
  * Supported Native Flow button action names in WhatsApp Web / Multi-Device
  */

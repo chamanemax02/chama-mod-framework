@@ -1,4 +1,4 @@
-import type { WASocket, GroupMetadata, ParticipantAction } from '@whiskeysockets/baileys';
+import type { WASocket, GroupMetadata, ParticipantAction } from '../../index.js';
 export declare class GroupManager {
     private readonly sock;
     constructor(sock: WASocket);
@@ -28,27 +28,27 @@ export declare class GroupManager {
     updateParticipants(jid: string, participants: string[], action: ParticipantAction): Promise<{
         status: string;
         jid: string | undefined;
-        content: import("@whiskeysockets/baileys").BinaryNode;
+        content: import('../../index.js').BinaryNode;
     }[]>;
     addParticipants(jid: string, participants: string[]): Promise<{
         status: string;
         jid: string | undefined;
-        content: import("@whiskeysockets/baileys").BinaryNode;
+        content: import('../../index.js').BinaryNode;
     }[]>;
     removeParticipants(jid: string, participants: string[]): Promise<{
         status: string;
         jid: string | undefined;
-        content: import("@whiskeysockets/baileys").BinaryNode;
+        content: import('../../index.js').BinaryNode;
     }[]>;
     promoteParticipants(jid: string, participants: string[]): Promise<{
         status: string;
         jid: string | undefined;
-        content: import("@whiskeysockets/baileys").BinaryNode;
+        content: import('../../index.js').BinaryNode;
     }[]>;
     demoteParticipants(jid: string, participants: string[]): Promise<{
         status: string;
         jid: string | undefined;
-        content: import("@whiskeysockets/baileys").BinaryNode;
+        content: import('../../index.js').BinaryNode;
     }[]>;
     /**
      * Get group invite code

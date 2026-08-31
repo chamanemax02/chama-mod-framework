@@ -1,4 +1,4 @@
-import type { proto, WAMessage, WAMessageKey } from '@whiskeysockets/baileys';
+import type { proto, WAMessage, WAMessageKey } from '../../index.js';
 export interface BaseSendOptions {
     quoted?: WAMessage | {
         key: WAMessageKey;

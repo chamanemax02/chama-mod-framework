@@ -1,4 +1,4 @@
-import type { WASocket, NewsletterMetadata, NewsletterUpdate, WAMediaUpload } from '@whiskeysockets/baileys';
+import type { WASocket, NewsletterMetadata, NewsletterUpdate, WAMediaUpload } from '../../index.js';
 export declare class NewsletterManager {
     private readonly sock;
     constructor(sock: WASocket);

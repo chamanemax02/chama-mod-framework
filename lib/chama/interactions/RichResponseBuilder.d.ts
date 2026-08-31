@@ -1,4 +1,4 @@
-import { proto } from '@whiskeysockets/baileys';
+import { proto } from '../../index.js';
 import type { RichResponseOptions } from '../types/interactive.js';
 /**
  * Fluent builder for Rich Responses (Title, Subtitle, Body, Footer, Media, Lists, Buttons)

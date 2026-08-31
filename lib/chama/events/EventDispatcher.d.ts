@@ -1,4 +1,4 @@
-import type { WASocket, WAMessage, ConnectionState, GroupParticipant, ParticipantAction, WACallEvent, proto, WAMessageKey } from '@whiskeysockets/baileys';
+import type { WASocket, WAMessage, ConnectionState, GroupParticipant, ParticipantAction, WACallEvent, proto, WAMessageKey } from '../../index.js';
 export interface MessageContext {
     message: WAMessage;
     key: WAMessageKey;
