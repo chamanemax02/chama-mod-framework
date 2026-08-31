@@ -1,0 +1,47 @@
+{
+  "name": "chama-mod-framework",
+  "version": "1.0.0",
+  "description": "CHAMA MOD Framework - Developer-focused WhatsApp Web / Baileys v7.0.0-rc14 Modified & Custom Layer",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "tsx tests/test-suite.ts",
+    "example:basic": "tsx examples/basic.ts",
+    "example:rich": "tsx examples/rich.ts",
+    "example:interactive": "tsx examples/interactive.ts",
+    "example:game": "tsx examples/game.ts",
+    "example:calls": "tsx examples/calls.ts",
+    "example:call-link": "tsx examples/call-link.ts",
+    "example:groups": "tsx examples/groups-newsletters.ts",
+    "example:plugins": "tsx examples/plugins.ts"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "baileys-v7",
+    "chama-mod",
+    "interactive-messages",
+    "native-flow",
+    "call-signaling",
+    "call-links",
+    "rich-messages"
+  ],
+  "author": "CHAMA",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "libsignal": "npm:libsignal-node@^2.0.1",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/pino": "^7.0.5",
+    "@types/ws": "^8.5.13",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
