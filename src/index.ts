@@ -63,8 +63,19 @@ export {
   DisconnectReason,
   proto,
   fetchLatestBaileysVersion,
+  fetchLatestWaWebVersion,
   Browsers,
-  delay
+  delay,
+  makeCacheableSignalKeyStore,
+  downloadContentFromMessage,
+  jidNormalizedUser,
+  prepareWAMessageMedia,
+  downloadMediaMessage,
+  generateForwardMessageContent,
+  generateWAMessageFromContent,
+  getBinaryNodeChild,
+  getBinaryNodeChildren,
+  decryptMessageNode
 } from '@whiskeysockets/baileys';
 
 // Default export
